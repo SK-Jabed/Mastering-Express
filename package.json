@@ -8,5 +8,11 @@
   "keywords": [],
   "author": "Sheikh Jabed",
   "license": "ISC",
-  "description": "This is server for mastering fundamentals of Express JS"
+  "description": "This is server for mastering fundamentals of Express JS",
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
 }
