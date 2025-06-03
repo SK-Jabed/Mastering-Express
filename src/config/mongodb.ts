@@ -1,6 +1,8 @@
 import { MongoClient, ServerApiVersion } from "mongodb";
 
 
+
+
 const uri =
   "mongodb+srv://mongodb:mongodb@cluster0.edawjnd.mongodb.net/todosDB?retryWrites=true&w=majority&appName=Cluster0";
 
