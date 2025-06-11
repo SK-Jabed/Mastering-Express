@@ -48,12 +48,10 @@ app.use((req: Request, res: Response, next: NextFunction) => {
 app.use((error: any, req: Request, res: Response, next: NextFunction) => {
   if (error) {
     console.log("error", error);
-    res
-      .status(400)
-      .json({
-        message: "Something went wrong from global error handler",
-        error,
-      });
+    res.status(400).json({
+      message: "Something went wrong from global error handler",
+      error,
+    });
   }
 });
 
