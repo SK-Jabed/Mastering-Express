@@ -55,8 +55,6 @@ app.use((error: any, req: Request, res: Response, next: NextFunction) => {
   }
 });
 
-
-
 // [app]-[express.json()]-[todosRouter]-[Root Route "/"]-[GET "/todos"]-[POST Create ToDo]
 //[todosRouter]-[get all todos /todos GET]-[create todo /todos/create-todo POST todo]
 
